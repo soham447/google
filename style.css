@@ -1,0 +1,36 @@
+ * {
+    font-family: sans-serif;
+    
+ }
+
+body {
+    height: 100%;
+    background-color: rgb(34, 36, 42);
+}
+
+#topbar {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: end;
+}
+
+#topbar > div {
+    color: #eee;
+    margin: 10px;
+    display: flex;
+    align-self: flex-end;
+    align-content: center;
+}
+
+a {
+    color: #eee;
+}
+
+#main {
+    min-height: 90vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
